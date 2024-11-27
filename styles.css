@@ -1,0 +1,62 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure both elements take full height */
+    overflow: hidden; /* Prevent scrolling if content overflows */
+}
+.body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url('lsu-6758-patrick-f-taylor-hall.jpg'); /* Path to your image */
+    background-size: cover; /* Scale the image to cover the screen */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center; /* Center the image */
+}
+/* Basic styling for the navigation bar */
+.topnav {
+    background-color: transparent; /* Dark background color */
+    overflow: hidden; /* Ensures content stays inside the bar */
+    display: flex; /* Flexbox for easy alignment */
+    justify-content: left; /* Space between items */
+    padding: 0 10px; /* Add some padding to the sides */
+    padding-left: 280px;
+}
+
+/* Links inside the navigation bar */
+.topnav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: x-large;
+    padding: 14px 20px; /* Spacing inside links */
+    display: block; /* Ensures the link takes up space */
+    text-align: center; /* Center-align the text */
+}
+
+/* Hover effect for the links */
+.topnav a:hover {
+    font-weight: bold;
+}
+
+/* Active link styling */
+.topnav a.active {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.body p{
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: xx-large;
+    padding-left: 300px;
+    display: block; /* Ensures the link takes up space */
+    text-align: left; /* Center-align the text */
+}
+
+.mailicon{
+    margin-left: 300px;
+    height: 50px;
+    width: 50px;
+    filter: invert();
+}
+.mailicon:hover{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3); /* Black with 50% opacity */;
+}
